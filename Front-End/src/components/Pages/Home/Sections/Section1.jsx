@@ -51,7 +51,8 @@ const Section1 = () => {
                 <option value="<100k">{`<100k`}</option>
                 <option value="100k-200k">100k-200k</option>
                 <option value="200k-500k">200k-500k</option>
-                <option value=">500k">{`>500k`}</option>
+                <option value="500k-1M">500k-1M</option>
+                <option value=">1M">{`>1M`}</option>
               </select>
             </div>
 
