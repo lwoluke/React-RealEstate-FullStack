@@ -1,5 +1,5 @@
 # React-RealEstate-FullStack
-Frontend using React, HTML, CSS. Backend using Strapi GraphQL and Apollo.
+Frontend using React, HTML, CSS. Backend using Strapi GraphQL.
 ## Front End Setup
 To setup front end, follow these steps:
 
