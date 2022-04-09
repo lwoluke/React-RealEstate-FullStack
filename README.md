@@ -32,7 +32,9 @@ npm i graphql @apollo/client
 
 ## Strapi Email/Password to Use
 Email: test_strapi@gmail.com
+
 Password: Test123!
+
 Use http://localhost:1337 to enter
 
 ### For the best development experience, use VS Code: https://code.visualstudio.com/
