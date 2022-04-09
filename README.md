@@ -10,9 +10,7 @@ git clone "https://github.com/lwoluke/React-RealEstate-Pt1.git"
 ```
 3) CD into Front-End directory and Enter the following into the terminal:
 ```
-npm rebuild
 npm install
-npm update
 npm start
 ```
 4) If unable to run on local development server, create a .env file and paste the following line:
