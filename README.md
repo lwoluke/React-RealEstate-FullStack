@@ -30,6 +30,20 @@ npm i graphql @apollo/client
 ```
 2) Create Strapi Admin account http://localhost:1337/admin
 
-### For the best development experience, use VS Code https://code.visualstudio.com/
+## Strapi Email/Password to Use
+Email: test_strapi@gmail.com
+Password: Test123!
+Use http://localhost:1337 to enter
+
+### For the best development experience, use VS Code: https://code.visualstudio.com/
+
+## Production
+To build the app for production: 
+
+CD into Front-End and enter ```npm run build```
+CD into Back-End and enter ```npm run strapi build```
+
+Documentation for Deployment: https://docs.strapi.io/developer-docs/latest/setup-deployment-guides/deployment.html
+
 ### Blog post I made on the creation of this project:
 
