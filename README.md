@@ -39,9 +39,8 @@ Use http://localhost:1337 to enter
 
 ## Production
 To build the app for production: 
-
-CD into Front-End and enter ```npm run build```
-CD into Back-End and enter ```npm run strapi build```
+- CD into Front-End and enter ```npm run build```
+- CD into Back-End and enter ```npm run strapi build```
 
 Documentation for Deployment: https://docs.strapi.io/developer-docs/latest/setup-deployment-guides/deployment.html
 
