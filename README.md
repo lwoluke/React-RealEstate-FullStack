@@ -31,5 +31,5 @@ npm i graphql @apollo/client
 2) Create Strapi Admin account http://localhost:1337/admin
 
 ### For the best development experience, use VS Code https://code.visualstudio.com/
-#### Blog post I made on the creation of this project:
+### Blog post I made on the creation of this project:
 
