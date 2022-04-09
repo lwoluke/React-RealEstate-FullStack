@@ -1,0 +1,205 @@
+a {
+    text-decoration: none;
+}
+
+.navbar_container {
+    position: fixed;
+    background-color: var(--dark-green);
+    top: 0;
+    left: 0;
+    right: 0;
+    height: 60px;
+    z-index: 999;
+    //padding-block: 1.5rem;
+    opacity: 0.95;
+    align-items: center;
+    justify-content: space-between;
+    @media screen and (max-width: 768px) {
+        //padding-block: 1.5rem;
+    }
+
+    &:hover {
+        opacity: 0.99;
+        transition: 0.14s ease-in-out;
+    }
+}
+
+nav {
+    position: fixed;
+    background-color: var(--dark-green);
+    top: 10px;
+    left: 0;
+    right: 0;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.brand_logo a {
+    font-size: 1.3rem;
+    color: whitesmoke;
+    font-weight: 600;
+    font-style: italic;
+    padding-left: 1.5rem;
+    align-items: center;
+}
+
+.navbar_ul {
+    display: flex;
+    gap: 1.8rem;
+    font-size: 1.1rem;
+    @media screen and (max-width: 768px) {
+        position: fixed;
+        top: 10px;
+        right: 0;
+        width: 100%;
+        height: 100%;
+        flex-direction: column;
+        gap: 1.5rem;
+        font-size: 1.1rem;
+        background: var(--dark-green);
+        padding-top: 6rem;
+        min-height: 100vh;
+        transform: translateY(-100%);
+        transition: transform ease-in-out 200ms;
+        & {
+            opacity: 1;
+        }
+    }
+
+    .login {
+        display: none;
+        @media screen and (max-width: 768px) {
+            color: whitesmoke;
+            transition: all 200ms ease;
+            text-align: center;
+            display: grid;
+            grid-template-columns: 1fr;
+            text-align: center;
+            font-size: 1.5rem;
+
+            &:hover {
+                color: rgb(66, 182, 118);
+                transform: scale(1.1);
+                filter: brightness(110%);
+                box-shadow: inset 0 0 120px 120px rgba(255, 255, 255, 0.1);
+                transition: 0.14s ease-in-out;
+            }
+        }
+    }
+
+    .btn_search {
+        display: none;
+        position: "absolute";
+        text-align: center;
+        //padding-left: 150px;
+
+        @media screen and (max-width: 768px) {
+            text-align: center;
+            display: flex;
+            background-color: Transparent;
+            border: none;
+        }
+    }
+
+    .mobile_close {
+        display: none;
+        @media screen and (max-width: 768px) {
+            cursor: pointer;
+            display: grid;
+            position: absolute;
+            top: 1rem;
+            right: 2rem;
+            font-size: 1.6rem;
+            color: white;
+
+            &:hover {
+                transform: scale(1.2);
+                transition: 0.14s ease-in-out;
+            }
+        }
+    }
+}
+
+.ul_active {
+    transform: translateX(0);
+}
+
+.navlink a {
+    color: rgb(233, 233, 233);
+    transition: color 200ms ease;
+    //padding-top: 5px;
+    //padding-bottom: 5px;
+    display: block;
+    grid-template-columns: 1fr;
+    grid-template-rows: repeat(5, 5px);
+    text-align: center;
+    font-size: 1.3rem;
+    //margin-bottom: 4rem;
+    @media screen and (max-width: 768px) {
+        color: whitesmoke;
+    }
+
+    &:hover {
+        color: rgb(179, 179, 179);
+        @media screen and (max-width: 768px) {
+            color: rgb(66, 182, 118);
+            transform: scale(1.1);
+            filter: brightness(110%);
+            box-shadow: inset 0 0 120px 120px rgba(255, 255, 255, 0.1);
+            transition: 0.14s ease-in-out;
+        }
+    }
+}
+
+.active {
+    color: var(--dark-green) !important;
+    font-weight: 500;
+    @media screen and (max-width: 720px) {
+        color: rgb(66, 182, 118) !important;
+    }
+}
+
+.login_container {
+    display: flex;
+    gap: 0.5rem;
+    align-items: center;
+    color: whitesmoke;
+    font-weight: 500;
+    padding-right: 15px;
+    font-size: 1.3rem;
+    
+    @media screen and (max-width: 768px) {
+        display: none;
+    }
+
+    &:hover {
+        svg {
+            transform: translateX(5px);
+        }
+    }
+
+    a {
+        color: var(--dark-green);
+        font-weight: 500;
+    }
+
+    svg {
+        font-size: 1.3rem;
+        transition: all 200ms ease-in-out;
+    }
+}
+
+.mobile_menu {
+    display: none;
+    @media screen and (max-width: 768px) {
+        padding-right: 1.8rem;
+        display: grid;
+        font-size: 1.8rem;
+        color: whitesmoke;
+        cursor: pointer;
+        text-align: center;
+        
+        
+    }
+}

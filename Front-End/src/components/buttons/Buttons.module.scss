@@ -1,0 +1,42 @@
+.btn {
+    background-color: rgb(246, 246, 246);
+    padding: 0.12rem;
+    display: flex;
+    align-items: center;
+    position: relative;
+    z-index: 1;
+    gap: 6px;
+    transition: all ease-in-out 300ms;
+    cursor: pointer;
+    width: max-content;
+    a {
+        color: var(--dark-green);
+        font-size: 1.2rem;
+        font-weight: 600;
+    }
+    svg {
+        color: var(--dark-green);
+        font-size: 1.4rem;
+        transition: all ease-in-out 300ms;
+    }
+
+    &::before {
+        position: absolute;
+        z-index: -1;
+        content: "";
+        top: 0;
+        left: 0;
+        transform: translateX(-5px);
+        padding-right: 2rem;
+        background: rgb(233, 233, 233);
+        width: 35px;
+        height: 35px;
+        opacity: 0.9;
+    }
+    &:hover {
+        color: var(--green);
+        svg {
+            transform: translateX(3px);
+        }
+    }
+}
