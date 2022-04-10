@@ -1,49 +1,35 @@
 {
-  "name": "frontend",
-  "version": "0.1.0",
+  "name": "back-end",
   "private": true,
+  "version": "0.1.0",
+  "description": "A Strapi application",
+  "scripts": {
+    "develop": "strapi develop",
+    "start": "strapi start",
+    "build": "strapi build",
+    "strapi": "strapi"
+  },
   "dependencies": {
     "@apollo/client": "^3.5.10",
-    "@testing-library/jest-dom": "^5.16.1",
-    "@testing-library/react": "^12.1.2",
-    "@testing-library/user-event": "^13.5.0",
+    "@strapi/design-system": "^0.0.1-alpha.71",
+    "@strapi/plugin-graphql": "^4.1.7",
+    "@strapi/plugin-i18n": "4.1.7",
+    "@strapi/plugin-users-permissions": "4.1.7",
+    "@strapi/strapi": "4.1.7",
     "apollo": "^2.33.10",
-    "apollo-link-error": "^1.1.13",
-    "graphql": "^16.3.0",
-    "lodash.debounce": "^4.0.8",
-    "minimist": "^1.2.6",
-    "react": "^17.0.2",
-    "react-dom": "^17.0.2",
-    "react-icons": "^4.3.1",
-    "react-router-dom": "^6.2.1",
-    "react-scripts": "^5.0.0",
-    "sass": "^1.45.2",
-    "styled-components": "^5.3.5",
-    "swiper": "^7.4.1",
-    "web-vitals": "^2.1.2"
+    "better-sqlite3": "7.4.6",
+    "graphql": "^15.8.0",
+    "minimist": "^1.2.6"
   },
-  "scripts": {
-    "start": "react-scripts start",
-    "build": "react-scripts build",
-    "test": "react-scripts test",
-    "eject": "react-scripts eject"
+  "author": {
+    "name": "A Strapi developer"
   },
-  "eslintConfig": {
-    "extends": [
-      "react-app",
-      "react-app/jest"
-    ]
+  "strapi": {
+    "uuid": "3ce839c6-1193-4dca-990d-f7096384a884"
   },
-  "browserslist": {
-    "production": [
-      ">0.2%",
-      "not dead",
-      "not op_mini all"
-    ],
-    "development": [
-      "last 1 chrome version",
-      "last 1 firefox version",
-      "last 1 safari version"
-    ]
-  }
+  "engines": {
+    "node": ">=12.x.x <=16.x.x",
+    "npm": ">=6.0.0"
+  },
+  "license": "MIT"
 }
