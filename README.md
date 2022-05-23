@@ -46,5 +46,5 @@ To build the app for production:
 
 Documentation for Deployment: https://docs.strapi.io/developer-docs/latest/setup-deployment-guides/deployment.html
 
-### Blog post I made on the creation of this project: https://medium.com/p/98b59fddc7a6/edit
+### Blog post I made on the creation of this project: https://medium.com/codex/reactjs-graphql-full-stack-real-estate-web-app-98b59fddc7a6
 
